@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Untitled</title>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <title>Sass: Syntactically Awesome Style Sheets</title>
+  <meta content="Syntatically Awesome Style Sheets" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="assets/css/sass-efcafdcd.css" rel="stylesheet">
+  <script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script>
+  <script async="" src="//www.google-analytics.com/analytics.js"></script>
+  <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+  <script src="assets/js/vendor/modernizr-2.8.3.custom-a333a613.js"></script>
+  <script src="//use.typekit.net/pya1hgl.js"></script>
+  <style type="text/css">
+              .tk-source-sans-pro{font-family:"source-sans-pro",sans-serif;}.tk-source-code-pro{font-family:"source-code-pro",sans-serif;}.tk-source-serif-pro{font-family:"source-serif-pro",sans-serif;}
+  </style>
+  <link rel="stylesheet" href="https://use.typekit.net/c/2b6f0c/1w;source-code-pro,2,Y1K:P:n2,Y1L:P:n3,Y1M:P:n4,Y1J:P:n5,Y1N:P:n6,Y1P:P:n7,Y1Q:P:n9;source-sans-pro,2,bmf:P:i2,bmh:P:i3,bmk:P:i4,bmm:P:i6,bmp:P:i7,bmr:P:i9,bmd:P:n2,bmg:P:n3,bmj:P:n4,bml:P:n6,bmn:P:n7,bmq:P:n9;source-serif-pro,2,bDr:P:n4,bDt:P:n6,bDs:P:n7/j?3bb2a6e53c9684ffdc9a98f0135b2a623f07be5005d40b9e3019615c8aa352112cb5012221345170fe3fa1da04cde43c99bd546a7fecd7f0a03f2ffac98a7ed60981bda57d0d8dd48ce991a0d60f4a50f47f057608f367ab8db52ef423253e5bfc3f9374c1f31a52cb08a0fa2678aadb5b528326228f64c1fdc9a25a26af9dc166cfd6306ad7c9b1554190fdf984ad0dea52cc6d78fe27a64f8a67170a74f674e68d7051ea6a4327c4134b58e1c0833ed4803eddf85b10082447a625cca79c356fadb634041bc19c3aa3d4ada48b65b266f086136cc49f3a824b52a3ad133dba1569414a0409a38afb4b6ec0da1592ef8173d77b6072a8122e38169a8df0446eae4bed5785980609fc24d73c64" media="all">
+  <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-535380-8']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-535380-14', 'sass-lang.com');
+      ga('send', 'pageview');
+    </script>
+    <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.8035dc46d6fa29e954821e4e5168478a.js"></script>
+
+</head>
+
+<body class="index" style="position: relative;"> 
+       <div class="page"> <!--[if lt IE 8]><div class=alert role=alert> <div class=container> <p class=browsehappy> You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience. </p> </div> </div><![endif]--> 
+       <div class="alert stickers"> 
+        <div class="container"> 
+        <p> 
+          <strong>Sass stands with trans detainees.</strong> 
+          <a href="https://www.tfaforms.com/369883">Donate to the Trans Justice Funding Project</a>.
+           </p>
+            </div>
+             </div>
+              <div class="pop-stripe"></div> 
+              <header class="banner" role="banner"> 
+              <div class="container"> 
+              <h1 class="site-brand">
+              <a href="/">
+                <img height="48" alt="Sass" src="C:/Users/User/Desktop/OxIT/Заняття 2/Sacc.png">
+                </a>
+              </h1> 
+              <nav class="navigation collapse" role="navigation"> 
+              <ul> 
+              <li>
+                <a href="/install">Install</a>
+              </li> 
+              <li>
+                 <a href="/guide">Learn Sass</a>
+              </li>
+              <li>
+                  <a href="http://blog.sass-lang.com/">Blog</a>
+              </li> 
+              <li>
+                  <a href="../documentation/file.SASS_REFERENCE.html">Documentation</a>
+              </li> 
+              <li>
+                  <a href="/community">Get Involved</a>
+              </li>
+              <li>
+                  <a href="/libsass">libSass</a>
+              </li>
+              </ul> 
+            </nav> 
+            <div class="banner-toggle"> 
+            <button data-target=".navigation" data-toggle="collapse" type="button"> 
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+                  </button> 
+                  </div> 
+                  </div> 
+              </header> 
+              <div class="page-header"> 
+              <div class="container"> 
+                <h1> CSS with superpowers </h1> 
+                </div> 
+                </div> 
+                <div class="body"> 
+                  <div class="container"> 
+                    <div class="content"> 
+                      <main class="main" role="main"> 
+                        <div class="hero-lockup"> 
+                        <p class="hero-image">
+                      <img height="160" alt="Glasses" src="C:/Users/User/Desktop/OxIT/Заняття 2/Glasses.png">
+
+                      </p> 
+                      <p class="introduction"> 
+                        Sass is the most mature, stable, and powerful professional grade CSS extension language in the&nbsp;world. 
+                      </p>
+                      </div> 
+                      </main> 
+                      </div> 
+                      </div> 
+                      </div> 
+                        <div class="alert release"> 
+                        <div class="container"> 
+                        <ul> 
+                        <li>
+                        Current Release: 
+                        <span class="release-name">Selective Steve (3.4.18)</span>
+                        </li> 
+                        <li>
+                          <a href="documentation/file.SASS_CHANGELOG.html">Release Notes</a>
+                        </li> 
+                        <li>
+                          <a href="https://github.com/sass/sass">Fork on Github</a>
+                        </li> 
+                        </ul>
+                        </div> 
+                        </div> 
+                          <section class="section-bottom"> 
+                          <div class="container"> 
+                          <ul class="list-tiled"> 
+                      <li> 
+                      <h3>CSS Compatible</h3> 
+                      <p> 
+                        Sass is completely compatible with all versions of CSS. We take this compatibility seriously, so that you can seamlessly use any available CSS libraries. 
+                      </p> 
+                      </li> 
+                      <li> 
+                      <h3>Feature Rich</h3> 
+                      <p> 
+                        Sass boasts more features and abilities than any other CSS extension language out there. The Sass Core Team has worked endlessly to not only keep up, but stay&nbsp;ahead. 
+                      </p> 
+                      </li> 
+                      <li> 
+                      <h3>Mature</h3> 
+                      <p>
+                       Sass has been actively supported for almost 9 years by its loving Core&nbsp;Team. </p> 
+                       </li> 
+                       <li> 
+                       <h3>Industry Approved</h3> 
+                       <p> 
+                       Over and over again, the industry is choosing Sass as the premier CSS extension language. 
+                       </p> 
+                       </li> 
+                       <li> 
+                       <h3>Large Community</h3> 
+                       <p> 
+                        Sass is actively supported and developed by a consortium of several tech companies and hundreds of developers. 
+                        </p> 
+                        </li> 
+                        <li> 
+                        <h3>Frameworks</h3>
+                         <p> 
+                         There are endless number of frameworks built with Sass. 
+                         <a href="http://compass-style.org/">Compass</a>
+                         , 
+                         <a href="http://bourbon.io/">Bourbon</a>
+                         , and 
+                         <a href="http://susy.oddbird.net/">Susy</a> "just to name a&nbsp;few." 
+                      </p> 
+                      </li> 
+                      </ul> 
+                      </div> 
+                      </section> 
+                      </div> 
+                      <footer class="contentinfo" role="contentinfo"> 
+                      <nav class="container"> 
+                      <ul> 
+                      <li class="contentinfo-legal"> 
+                      <p>
+                      Sass © 2006–2015 
+                      <a href="http://www.hamptoncatlin.com/">Hampton Catlin</a>
+                      , 
+                      <a href="http://nex-3.com/">Natalie Weizenbaum</a>
+                      , 
+                      <a href="http://chriseppstein.github.io/">Chris&nbsp;Eppstein</a>
+                      , and&nbsp;numerous&nbsp;contributors.
+                      </p> 
+                      <p>
+                        It is available for use and modification under the 
+                        <a href="http://sass-lang.com/docs/yardoc/file.MIT-LICENSE.html">MIT&nbsp;License</a>
+                        .
+                        </p> 
+                        </li> 
+                        <li class="contentinfo-tools"> 
+                        <ul> 
+                        <li>
+                        <a href="https://github.com/sass/sass">Sass Repo</a>
+                        </li> 
+                        <li>
+                        <a href="https://github.com/sass/sass-site">Website Repo</a>
+                        </li> 
+                        <li>
+                        <a href="/styleguide">Style Guide</a>
+                        </li> 
+                        <li>
+                        <a href="/community-guidelines">Community Guidelines</a>
+                        </li>
+                         </ul>
+                          </li>
+                           <li class="contentinfo-social"> 
+                           <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" title="Twitter Follow Button" src="http://platform.twitter.com/widgets/follow_button.543330fdc9b8aa0e6dd11db46e86f56c.en.html#_=1444065298543&amp;dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=SassCSS&amp;show_count=false&amp;show_screen_name=true&amp;size=l" style="position: static; visibility: visible; width: 154px; height: 28px;" data-apn-fvtbs-toolbar_set="top" data-apn-fvtbs-toolbar_set_top="NaNpx" data-apn-toolbar-adjusted="NaNpx" data-screen-name="SassCSS"> 
+                          </iframe>
+                          <script>
+                                      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+            </script> 
+            </li> 
+            </ul> 
+            </nav>
+             </footer> 
+             <script src="assets/js/sass-f4f40f8c.js"></script>  
+</body>
+<link id="apn-SPC-SP-stylesheet" rel="stylesheet" href="chrome-extension://aaaaadgepjkdffhjbkfjgnnffnfcffbg/config/skin/css/containers.css">
+<iframe id="apn-SPC-SP-toolbar" src="http://sass-lang.com" class="apn-toolbar SkipThisFixedPosition apn-v6-toolbar" style="top: 0px;"></iframe>
+<style id="apn-body-style">
+  html {    padding-top: 31px ! important;     border-top: 1px solid transparent; }
+  </style>
+</html>
+
