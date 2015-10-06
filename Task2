@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Untitled</title>
+  <meta charset="UTF-8">
+ <style type="text/css">
+
+ 
+span {
+    font-size: 30px;
+    color: orange;
+    cursor: pointer;
+}
+
+span:hover:before {
+    content: "\2605";
+    position: fixed;
+    color: orange;
+}
+</style>
+</head>
+
+<body>
+
+		<img src="image.png" alt="image">
+		<div>Level: -
+		</div>
+		<div> Student Type: - 
+		</div>
+		<div> Learning Budget: - 
+		</div>
+		<div>Preferred Language Skills: -
+		</div>
+
+
+		<img src="image.png" alt="image">
+		<div>Level:<b> Begginer</b> 
+		</div>
+		<div> Student Type:<b> University Students</b> 
+		</div>
+		<div> Learning Budget:<b> $</b> 
+		</div>
+		<div>Preferred Language Skills:<b> Exam Preparation, Grammar, Integrated, Listening, Pronunciation, Reading, Speaking, Vocabulary, Writing</b> 
+		</div>
+
+		
+		<img src="image.png" alt="image">
+		<div>Level: <b> Begginer</b> 
+		</div>
+		<div> Student Type: <b> High School Students (15-18 years)</b> 
+		</div>
+		<div> Learning Budget: <b> $$</b> 
+		</div>
+		<div>Preferred Language Skills:<b> Writing, Pronunciation, Integrated, Grammar, Listening, Exam Preparation, Speaking, Reading, Vocabulary</b> 
+		</div>
+
+
+
+
+</body>
+
+</html>
+
